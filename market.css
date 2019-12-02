@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster|Roboto");
+.heart {
+    position: relative;
+    transition: all 1s ease;
+}
+
+.heart a {
+    text-decoration: none;
+    color: purple
+}
+
+.heart:before {
+    font-family: FontAwesome;
+    content: "\f08a";
+    font-size: 28px;
+    color: #1bb76e;
+}
+
+.content {
+    display: relative;
+    padding: 0 30px;
+    text-align: center;
+    color: #009f8b;
+}
+
+.content p {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.content span {
+    font-family: "Lobster", cursive;
+    font-size: 24px;
+    color: #1bb76e;
+    letter-spacing: 2px;
+}
+
+.content h2 {
+    color: #FF5500;
+}
+
+.wrapper {
+    padding: 10px 10px;
+    display: inline-block;
+    width: 340px;
+}
+
+.diaporama1 {
+    margin: 0 auto;
+    width: 100px;
+    height: 120px;
+    border: 3px solid #333333;
+    background-image: url("img/polo team.PNG");
+    background-size: cover;
+    animation-name: diapo1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes diapo1 {
+    0% {
+        background-image: url("img/polo team.PNG");
+    }
+    33% {
+        background-image: url("img/polo team2.PNG");
+    }
+    66% {
+        background-image: url("img/polo team 3.PNG");
+    }
+}
+
+.diaporama2 {
+    margin: 0 auto;
+    width: 100px;
+    height: 120px;
+    border: 3px solid #333333;
+    background-image: url("img/sweat warren.PNG");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: diapo2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes diapo2 {
+    0% {
+        background-image: url("img/sweat warren.PNG");
+    }
+    33% {
+        background-image: url("img/sweat 2.PNG");
+    }
+    66% {
+        background-image: url("img/sweat 3.PNG");
+    }
+}
+
+.diaporama3 {
+    margin: 0 auto;
+    width: 100px;
+    height: 120px;
+    border: 3px solid #333333;
+    background-image: url("img/pantalon 1.PNG");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: diapo3;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes diapo3 {
+    0% {
+        background-image: url("img/pantalon 1.PNG");
+    }
+    33% {
+        background-image: url("img/pantalon 2.PNG");
+    }
+    66% {
+        background-image: url("img/pantalon 3.PNG");
+    }
+}

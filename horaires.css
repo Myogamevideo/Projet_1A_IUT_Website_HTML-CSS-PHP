@@ -1,0 +1,11 @@
+.body table {
+    color: #009f8b;
+    border: 1px solid #009f8b;
+    border-radius: 4px;
+}
+
+.body table td {
+    color: #009f8b;
+    border: 1px solid #009f8b;
+    padding: 10px 20px;
+}

@@ -1,0 +1,14 @@
+.body2
+{
+	background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+
+.body2 h1 {
+    text-align: center;
+}
+
+.body2 img {
+    height: 200px;
+    width: 200px;
+    margin: 0px 20px;
+}

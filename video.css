@@ -1,0 +1,15 @@
+.body video {
+    width: 100%;
+
+}
+
+figure {
+    position: relative;
+}
+
+.video {
+    position: relative;
+    float: right;
+    z-index: 0;
+    padding-top: 200px;
+}

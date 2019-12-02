@@ -1,0 +1,17 @@
+Projet Numéro 1 =
+Membre :
+    - Bougrat Alexandre
+    - Théo Pidoux
+
+Serveur web local : WAMP
+Base de donnée :
+    - Nom de la BD : myogame
+    - Tableau formulaire : users
+
+Session Administrateur :
+    - Username : Admin
+    - Mot de passe : 123456789
+
+    
+Je tiens à dire que je me suis aidé de mon ancien site venant de mon projet ISN pour le code PHP / mySql liée au formulaire , gestion de membre et email
+En théorie , le site web fonctionne pour les fonctionnalité de gestion de membre et j'ai réalisé toutes les indications des TPs de cette année
